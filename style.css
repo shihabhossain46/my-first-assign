@@ -141,3 +141,158 @@ nav li a{
     color: rgba(0, 0, 0, 0.5);
 
 }
+/* feedback style */
+.feedback-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* text-align: center;
+    justify-content: center; */
+    align-items: center;
+}
+.feedback-title{
+    text-align: center;
+    margin: 0 auto;
+}
+.card-container{
+    display: flex;
+    padding: 30px;
+    
+    
+}
+.card{
+    background-color: #F2EDED;
+    gap: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.card-title{
+    text-align: left;
+    
+}
+.card-describtion{
+    text-align: left;
+}
+.icon-star{
+    object-fit: cover;
+}
+.owner{
+    display: flex;
+    gap: 5px;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;  
+    
+}
+.owner-pic{
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+
+.card-title{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.feedback-title{
+    font-size: 50px;
+}
+/* touch style */
+.touch{
+    display: flex;
+    max-width:1140px;
+    height: 630px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.section-title{
+    font-size: 97px;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 200px;
+    margin-top: 200px;
+    margin-bottom:200px ;
+}
+.section-form{
+    width: 497px;
+    height: 490ox;
+    gap: 25px;
+    font-size: 20px;
+    margin-right: 150px;
+}
+.int-email{
+    background-color: #FFFFFF;
+    height: 70px;
+    width: 697px;
+    padding: 32px 20px;
+    margin-top: 20px;
+
+}
+.int-button{
+    background-color: #FFFFFF;
+    height: 70px;
+    width: 697px;
+    padding: 32px 20px;
+    margin-top: 20px;
+
+}
+
+.int-button{
+    background-color: rgba(78, 71, 255, 1);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 19px 200px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+
+
+}
+/* fotter style */
+.footer-container{
+    background-color:#FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1440px;
+    height: 428px;
+}
+.foot-box{
+    margin: 0 auto;
+    width: 531px;
+    height: 177px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+    
+}
+.footter-head{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-des{
+    color: #8987A1;
+}
+ul li{
+    list-style: none;
+    display:inline ;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: aquamarine;
+}
+
+
+    
+
+
