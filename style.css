@@ -45,7 +45,7 @@ gap: 37px;
     border-radius: 10px;
     cursor: pointer;
     border: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav{
     display: flex;
@@ -62,4 +62,34 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* action section stle */
+.action-section{
+    display: flex;
+    background-color: #FFFFFF;
+    border: 5px solid white;
+    margin: 116px 140px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.title-subtitle-container{
+    margin-left: 0px;
+    margin-right: 220px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+.img-view{
+    border-radius: 48px;
+}
+.title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub-title{
+    color: #252432;
+    font-size: 26px;
+    
 }
